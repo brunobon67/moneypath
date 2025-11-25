@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - MoneyPath</title>
+    <meta name="description" content="Latest articles and tips on making money, investing, and business.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <style>
+        .blog-grid {
+            display: grid;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .blog-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-meta {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-title {
+            font-family: 'Merriweather', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+
+        .blog-excerpt {
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">MoneyPath</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="fast-money.html">Fast Money</a></li>
+                    <li><a href="investing.html">Investing</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background: linear-gradient(to right, #7c3aed, #6d28d9);">
+            <div class="container">
+                <h1>MoneyPath Blog</h1>
+                <p>Insights, tips, and strategies for your financial journey.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-meta">November 25, 2025 • Investing</div>
+                        <h2 class="blog-title">5 Mistakes Beginners Make in the Stock Market</h2>
+                        <p class="blog-excerpt">Investing can be intimidating. Avoid these common pitfalls to ensure
+                            your portfolio grows steadily over time...</p>
+                        <a href="#" class="link-arrow">Read More &rarr;</a>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-meta">November 20, 2025 • Fast Money</div>
+                        <h2 class="blog-title">How to Make Your First $100 Online This Weekend</h2>
+                        <p class="blog-excerpt">Need cash fast? Here is a step-by-step guide to using survey sites and
+                            user testing platforms to generate quick income...</p>
+                        <a href="#" class="link-arrow">Read More &rarr;</a>
+                    </article>
+                    <article class="blog-card">
+                        <div class="blog-meta">November 15, 2025 • Business</div>
+                        <h2 class="blog-title">Why 2026 is the Best Year to Start a Digital Business</h2>
+                        <p class="blog-excerpt">With AI tools becoming more accessible, the barrier to entry for
+                            starting a business has never been lower...</p>
+                        <a href="#" class="link-arrow">Read More &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 MoneyPath. All rights reserved.</p>
+            <p class="disclaimer">Disclaimer: This site is for educational purposes only. Not financial advice.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
