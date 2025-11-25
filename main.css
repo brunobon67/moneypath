@@ -1,0 +1,52 @@
+:root {
+    --color-primary: #059669; /* Emerald 600 */
+    --color-primary-dark: #047857; /* Emerald 700 */
+    --color-secondary: #1e3a8a; /* Blue 900 */
+    --color-text: #1f2937; /* Gray 800 */
+    --color-text-light: #4b5563; /* Gray 600 */
+    --color-bg: #f9fafb; /* Gray 50 */
+    --color-white: #ffffff;
+    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Merriweather', serif;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    --border-radius: 8px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
